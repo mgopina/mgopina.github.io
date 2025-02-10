@@ -1,7 +1,36 @@
 body {
     background-color: #add4db;
-    font-family: sans-serif;
+    font-family: "Moderustic", serif;
+    text-align: center;
 }
 h1, h2 {
-    font-family: "Georgia";
+    font-family: "Source Serif 4", serif;
+    color: #236383;
 }
+
+
+p {
+    color: #08252c;
+}
+
+a {
+    color: #0c343d;
+}
+
+a:hover {
+    color: #45818e;
+}
+
+img {
+    max-width:60%;
+max-height:60%;
+}
+
+.about {
+    text-align: left;
+}
+
+figcaption {
+    font-style: italic;
+}
+
