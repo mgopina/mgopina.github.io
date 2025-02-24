@@ -1,0 +1,38 @@
+.visual-pain{
+    background-color: red;
+    width: 100%;
+    color: green;
+    font-size: 2rem;
+    border-color: aquamarine;
+    border-width: 80px;
+    border-style: dotted dashed solid double;
+}
+
+
+.deception{
+    color: #0000EE;
+    text-decoration: underline;
+
+}
+
+.visit{
+    font-family: Papyrus, fantasy;
+    font-weight: bold;
+    margin: 20px 100px 3px 50px ;
+}
+
+.suspense{
+    font-family:  "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 120px;
+    padding: 0;
+    color: fuchsia;
+}
+
+.really-important h2{
+    font-family:  "Comic Sans MS", "Comic Sans", cursive;
+    color: black;
+}
+
+form{
+    border-style: solid;
+}
