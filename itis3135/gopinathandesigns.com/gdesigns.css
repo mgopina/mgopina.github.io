@@ -1,0 +1,52 @@
+.head-bar {
+    width: 100%;
+    height: 20%;
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.head-bar h1{
+    color: rgb(96, 137, 220);
+    font-family: "Big Shoulders", sans-serif;
+    font-weight: 300;
+  font-size: 3em;
+
+}
+
+.head-bar img {
+
+   float: left;
+   width: 5em;
+
+}
+
+
+html{
+    background-color: black;
+}
+
+h2{
+    color: white;
+    font-family: "Big Shoulders", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: xx-large;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.amazing-list{
+    color: lightsteelblue;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    text-align: center;
+    list-style: inside;
+    list-style-type: decimal;
+}
