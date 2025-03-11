@@ -1,0 +1,84 @@
+body{
+     text-align: center;
+}
+
+header img{
+    height: 150px;
+    margin-left: 30px;
+}
+header {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+main{
+    margin-top: 150px;
+    padding: 30px;
+}
+
+main p {
+    color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+header * {
+    display: inline;
+}
+
+header li{
+    margin: 20px;
+}
+
+header li a{
+    color: rgb(0, 157, 255);
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700;
+}
+header li a:hover{
+    color: rgb(94, 193, 255);
+}
+html{
+    background-color: rgb(22, 42, 61);
+}
+h1{
+    font-family: "Exo 2", sans-serif;
+    color: antiquewhite;
+}
+
+h2{
+    font-family: "Exo 2", sans-serif;
+    color: antiquewhite;
+}
+
+footer *{
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:  rgb(0, 157, 255);
+    text-decoration: none;
+}
+
+footer a{
+    color:  rgb(93, 182, 237);
+}
+footer a:hover{
+    color:  rgb(150, 211, 249);
+}
+
+.slogan{
+    color: rgb(237, 126, 23);
+}
+
+.about-paragraph{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
