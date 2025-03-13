@@ -3,9 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRAP Website Evaluation</title>
+    <title>Website Evaluation</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@500&family=Moderustic:wght@300..800&family=Source+Serif+4:opsz,wght@8..60,700&display=swap" rel="stylesheet">
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+
 </head>
+<style>
+    ul{
+        list-style: inside;
+    }
+</style>
 <body>
-    
+    <header>
+        <div data-include="components/header.html"></div>
+    </header>
+    <main>
+        <h2>CRAP Website Evaluations</h2>
+        <section>
+            <h3>Well-done website: <a href="https://andpizza.com/" target="_blank">&#38;pizza</a></h3>
+            <p>
+                &pizza’s website is a modern, visually engaging platform with a sleek black-and-white 
+                aesthetic, bold typography, and high-quality images. It features a clean layout with 
+                intuitive navigation, making it easy for users to explore the menu, find locations, 
+                and place orders. The site effectively balances style and functionality, creating a 
+                seamless and enjoyable user experience.
+            </p>
+            <ul>
+                <li>Contrast: Contrast is used effectively, bold typography stands out, dark on light color scheme emphasizes words.</li>
+                <li>Repetition: Consistent theme throughout the site, same fonts, colors, and buttons are used.</li>
+                <li>Alignment: sections, text, and images are organized in a structured way. Intuitive and easy to follow.</li>
+                <li>Proximity: Related elements are grouped logically, use of white space avoides clutter.</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Terrible website: <a href="https://www.art.yale.edu/" target="_blank">Yale School of Art</a></h3>
+            <p>
+                Yale School of Art’s website is an unstructured, text-heavy page with minimal visual hierarchy
+                and an outdated design. The lack of alignment, inconsistent typography, and scattered content 
+                make navigation confusing. While it reflects an experimental and artistic approach, it 
+                ultimately sacrifices usability, making information difficult to find and read.
+            </p>
+            <ul>
+                <li>Contrast: Poor contrast, text lacks emphasis against noisy background, difficult to distinguish key sections. Parts are difficult to read</li>
+                <li>Repetition: Fonts, sizes, and colors feel random, inconsistent, with no pattern or theme.</li>
+                <li>Alignment: Text blocks and other elements appear to be randomly placed, making it difficult to find specific information.</li>
+                <li>Proximity: There is excessive whitespace in the right, and other elements are poorly grouped. Navigation is difficult and not intuitive.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div data-include="components/footer.html"></div>
+    </footer>
+    <script src="scripts/HTMLInclude.min.js"></script>
 </body>
 </html>
