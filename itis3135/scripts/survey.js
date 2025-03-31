@@ -19,21 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
 
-    form.addEventListener("submit", function (event) {
-        event.preventDefault();
-        if (!form.checkValidity()) {
-            alert("Please fill out all required fields and agree to the terms.");
-            return;
-        }
-        const data = gatherFormData();
-        displayIntro(data);
-    });
-
-    form.addEventListener("reset", function () {
-        output.innerHTML = "";
-        coursesDiv.innerHTML = "";
-        courseCount = 0;
-    });
+    
 
     window.addCourse = function () {
         courseCount++;
@@ -64,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
             funnyThing: document.getElementById("funny-thing").value,
             anythingElse: document.getElementById("anything-else").value,
             agreement: document.getElementById("agreement").checked,
-            courses: Array.from(coursesDiv.querySelectorAll("input[type=text]")).map(input => input.value)        };
+            courses: Array.from(coursesDiv.querySelectorAll("input[type=text]")).map((input) => input.value)        };
         return data;
     }
 
@@ -72,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function displayIntro(data) {
         const imageHtml = loadImage();
         const coursesHtml = data.courses.length > 0
-            ? `<ul>${data.courses.map(course => `<li>${course}</li>`).join('')}</ul>`
+            ? `<ul>${data.courses.map((course) => `<li>${course}</li>`).join('')}</ul>`
             : "None";
         output.innerHTML = `
             <h2>${data.name} || ${data.mascot}</h2>
@@ -96,4 +82,20 @@ document.addEventListener("DOMContentLoaded", function () {
         `;
         
     }
+
+    form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        if (!form.checkValidity()) {
+            alert("Please fill out all required fields and agree to the terms.");
+            return;
+        }
+        const data = gatherFormData();
+        displayIntro(data);
+    });
+
+    form.addEventListener("reset", function () {
+        output.innerHTML = "";
+        coursesDiv.innerHTML = "";
+        courseCount = 0;
+    });
 });
