@@ -109,3 +109,21 @@ tr:nth-child(odd) {
 tfoot {
     font-weight: bold;
 }
+
+form label {
+    display: block;
+    margin: 0.5rem 0;
+    text-align: left;
+}
+
+input, select, textarea, button {
+    display: block;
+    margin: 0.25rem 0;
+    width: 100%; /* Optional: makes inputs take the full width */
+    padding: 0.5rem;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+button {
+    width: auto; /* Buttons should not take full width */
+}
