@@ -1,0 +1,145 @@
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+    max-width:80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  .prev{
+    left:0;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text */
+  .numbertext {
+    color: #bb0606;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Caption text container */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+  }
+
+  #caption{
+    color: white
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Thumbnail columns */
+  .column {
+    float: left;
+    width: 7.14%; /* 100 / 14 slides */
+  }
+  
+  /* Thumbnail image transparency effect */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  body {
+    background-color: #add4db;
+    font-family: "Moderustic", serif;
+    text-align: center;
+}
+
+main {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: "Source Serif 4", serif;
+    color: #236383;
+}
+
+h3{
+    color: #236383;
+}
+
+p {
+    color: #08252c;
+}
+
+a {
+    color: #0c343d;
+}
+
+a:hover {
+    color: #45818e;
+}
+
+
+
+.about {
+    text-align: left;
+}
+
+figcaption {
+    font-style: italic;
+}
+li {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
