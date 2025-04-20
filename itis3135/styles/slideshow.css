@@ -9,7 +9,7 @@ body {
   /* Position the image container (needed to position the left and right arrows) */
   .container {
     position: relative;
-    max-width:80%;
+    max-width:50%;
     margin-left: auto;
     margin-right: auto;
   }
