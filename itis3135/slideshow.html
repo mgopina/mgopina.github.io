@@ -174,6 +174,8 @@
     </footer>
     <script src="scripts/HTMLInclude.min.js"></script>
     <script>
+        let slideIndex = 1;
+        
         function showSlides(n) {
           let i;
           let slides = document.getElementsByClassName("mySlides");
@@ -196,7 +198,7 @@
           captionText.innerHTML = slides[slideIndex - 1].querySelector("img").alt;
         }
 
-        let slideIndex = 1;
+        
         window.onload = function(){
             showSlides(slideIndex);
         };
