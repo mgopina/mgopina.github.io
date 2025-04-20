@@ -1,11 +1,10 @@
 body {
     font-family: Arial;
     margin: 0;
-  }
-  
-  * {
     box-sizing: border-box;
   }
+  
+  
   
   /* Position the image container (needed to position the left and right arrows) */
   .container {
@@ -35,12 +34,14 @@ body {
     width: auto;
     padding: 16px;
     margin-top: -50px;
-    color: white;
+    color: rgb(157, 221, 246);
     font-weight: bold;
     font-size: 20px;
     border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
   }
   .prev{
     left:0;
