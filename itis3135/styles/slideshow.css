@@ -2,32 +2,26 @@ body {
     font-family: Arial;
     margin: 0;
     box-sizing: border-box;
-  }
+}
   
-  
-  
-  /* Position the image container (needed to position the left and right arrows) */
-  .container {
+.container {
     position: relative;
     max-width:50%;
     margin-left: auto;
     margin-right: auto;
-  }
+}
   
-  /* Hide the images by default */
-  .mySlides {
+.mySlides {
     display: none;
-  }
+}
 
   
-  /* Add a pointer when hovering over the thumbnail images */
-  .cursor {
+.cursor {
     cursor: pointer;
-  }
+}
   
-  /* Next & previous buttons */
-  .prev,
-  .next {
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -42,62 +36,64 @@ body {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-  }
-  .prev{
+}
+
+.prev{
     left:0;
-  }
-  .next {
+}
+
+.next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
+}
   
-  .prev:hover,
-  .next:hover {
+.prev:hover,
+.next:hover {
     background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  /* Number text */
-  .numbertext {
+}
+
+.numbertext {
     color: #bb0606;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
-  }
+}
   
-  /* Caption text container */
-  .caption-container {
+  
+.caption-container {
     text-align: center;
     background-color: #222;
     padding: 2px 16px;
-  }
+}
 
-  #caption{
+#caption{
     color: white
-  }
+}
   
-  .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
   
-  /* Thumbnail columns */
-  .column {
+  
+.column {
     float: left;
-    width: 7.14%; /* 100 / 14 slides */
-  }
+    width: 7.14%; 
+}
   
-  /* Thumbnail image transparency effect */
-  .demo {
+  
+.demo {
     opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
+}
+
+.active,
+.demo:hover {
     opacity: 1;
-  }
-  body {
+}
+
+body {
     background-color: #add4db;
     font-family: "Moderustic", serif;
     text-align: center;
