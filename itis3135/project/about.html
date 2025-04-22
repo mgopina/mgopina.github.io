@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
 </head>
 <body>
     <div class="wrapper">
@@ -15,22 +17,45 @@
         <div data-include="components/header.html"></div>
     </header>
     <main>
-        <h2>About</h2>
-        <p>
-            I am a second year
-            student at UNC-
-            Charlotte Majoring in
-            Exercise Science, and
-            minoring in Biology
-            and Chemistry
-            pursuing a career in
-            medicine.
-        </p>
+        <h2>About Me</h2>
+        
+        
+        <div id="about-me">
+            <div>
+                <figure>
+                    <img src="images/Caleb_Dry_Pic.jpg" alt="">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <div>
+                <p>I am a second-year student at the University of North Carolina at Charlotte, pursuing a major in Exercise Science with minors in Biology and Chemistry. With a strong academic foundation and a 3.9 GPA, I have consistently earned a place on the Chancellor’s List and am committed to a future in the medical field.</p>
+
+                <p>My academic journey is supported by hands-on experience in both educational and clinical environments. As a Peer Assisted Learning Leader, I support fellow students in Anatomy and Physiology through structured study sessions. These leadership opportunities have strengthened my communication and collaboration skills.</p>
+
+                <p>In addition to my academic and leadership roles, I’ve volunteered in clinical and research settings, including work as an ER Ambassador at Novant Presbyterian Hospital and as a research assistant in the UNC Charlotte Biodynamics Lab. These experiences have deepened my interest in patient care and biomedical research.</p>
+
+                <p>I am passionate about combining scientific knowledge with compassionate care and look forward to contributing meaningfully to the healthcare community. Please explore the rest of the site to learn more about my journey and aspirations in medicine.</p>
+
+            </div>
+            
+        </div>
+        <h2>Career Timeline</h2>
+        <p>Click and drag the slider handle to interact with the timeline.</p>
+
+    <div id="timeline-wrapper">
+      <div id="timeline-year"></div>
+      <div id="timeline-slider"></div>
+      <div id="timeline-content"></div>
+      
+    </div>
     </main>
     <footer>
         <div data-include="components/footer.html"></div>
     </footer>
     <script src="scripts/HTMLInclude.min.js"></script>
-    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script src="scripts/timeline.js"></script>
+</div>
 </body>
 </html>

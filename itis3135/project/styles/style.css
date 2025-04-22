@@ -63,6 +63,145 @@ main h2 {
     text-align: center;
     color: #457b9d;
 }
+main h3 {
+    font-family: "Assistant", sans-serif;
+    font-size: 1.5rem;
+    color: #e63946;
+}
+
+
+#about-me {
+    display: flex;
+    align-items: flex-start; /* Align image and text at the top */
+    gap: 2rem; /* Adds space between image and text */
+    margin-top: 1rem;
+    flex-wrap: wrap; /* Makes it responsive for smaller screens */
+  }
+  
+  #about-me figure {
+    flex-shrink: 0; /* Prevents image from shrinking */
+    max-width: 300px; /* You can adjust this based on your layout */
+    width: 100%;
+  }
+  
+  #about-me img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: makes image corners rounded */
+  }
+  
+  #about-me > div:last-child {
+    flex: 1; /* Takes up the remaining space for text */
+  }
+
+  #timeline-wrapper {
+    padding: 1rem;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #timeline-slider {
+    margin: 2rem 0;
+  }
+  
+  #timeline-year {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #457b9d;
+    margin-bottom: 1rem;
+  }
+  
+  #timeline-content {
+    font-size: 1rem;
+    font-family: "Merriweather Sans", sans-serif;
+    color: #333;
+    padding: 1rem;
+    border-left: 4px solid #457b9d;
+  }
+  
+  .experience-container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .experience-card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+  }
+  
+  .experience-card h3 {
+    margin-top: 0;
+    color: #457b9d;
+  }
+  
+  .toggle-btn {
+    background-color: #457b9d;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-btn:hover {
+    background-color: #1d3557;
+  }
+  
+  .details {
+    display: none;
+    margin-top: 1rem;
+    color: #333;
+  }
+
+  .year {
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: #555;
+    margin-left: 8px;
+  }
+  #volunteer-experience {
+    margin-top: 2rem;
+    background-color: #fdfdfd;
+    padding: 1.5rem;
+    border-left: 4px solid #457b9d;
+    border-radius: 8px;
+  }
+  
+  .volunteer-role {
+    margin-bottom: 2rem;
+  }
+  
+  .volunteer-role h3 {
+    color: #1d3557;
+    font-size: 1.25rem;
+  }
+  
+  .volunteer-role .year {
+    font-size: 0.95rem;
+    font-weight: normal;
+    color: #666;
+    margin-left: 10px;
+  }
+  
+  .volunteer-role ul {
+    margin-top: 0.5rem;
+    padding-left: 1.5rem;
+  }
+  
+  .volunteer-role li {
+    margin-bottom: 0.5rem;
+  }
+  
 
 main p, li {
     font-family: "Merriweather Sans", sans-serif;
@@ -100,3 +239,35 @@ footer a:hover {
 
   
 
+@media (max-width: 1000px) {
+    #about-me {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    #about-me > div:first-child {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    #about-me figure {
+      margin: 0;
+      max-width: 300px;
+      width: 100%;
+    }
+  
+    #about-me img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  
+    #about-me > div:last-child {
+      width: 100%;
+    }
+  }
+  
+  
