@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const toggleButtons = document.querySelectorAll('.toggle-btn');
   
-    toggleButtons.forEach(button => {
+    toggleButtons.forEach((button) => {
       button.addEventListener('click', function () {
         const details = this.nextElementSibling;
   
