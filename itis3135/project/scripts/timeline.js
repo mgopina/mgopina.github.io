@@ -25,6 +25,14 @@ $(function () {
       }
     ];
   
+    
+  
+    function updateTimeline(index) {
+      const entry = timelineData[index];
+      $("#timeline-year").text(entry.year);
+      $("#timeline-content").html(entry.content);
+    }
+
     $("#timeline-slider").slider({
       min: 0,
       max: timelineData.length - 1,
@@ -34,12 +42,6 @@ $(function () {
         updateTimeline(ui.value);
       }
     });
-  
-    function updateTimeline(index) {
-      const entry = timelineData[index];
-      $("#timeline-year").text(entry.year);
-      $("#timeline-content").html(entry.content);
-    }
   
     // Initialize with first entry
     updateTimeline(0);

@@ -21,7 +21,7 @@
     font-weight: 100;
 }
 
-.navbar h1 {
+h1 {
     color: #f1faee;
     margin: 0;
     padding: 25px 20px;
@@ -57,13 +57,13 @@ main {
     flex: 1;
 }
 
-main h2 {
+h2 {
     font-family: "Assistant", sans-serif;
     font-size: 2rem;
     text-align: center;
     color: #457b9d;
 }
-main h3 {
+h3 {
     font-family: "Assistant", sans-serif;
     font-size: 1.5rem;
     color: #e63946;
@@ -136,10 +136,6 @@ main h3 {
     transition: all 0.3s ease;
   }
   
-  .experience-card h3 {
-    margin-top: 0;
-    color: #457b9d;
-  }
   
   .toggle-btn {
     background-color: #457b9d;
@@ -181,11 +177,7 @@ main h3 {
     margin-bottom: 2rem;
   }
   
-  .volunteer-role h3 {
-    color: #1d3557;
-    font-size: 1.25rem;
-  }
-  
+
   .volunteer-role .year {
     font-size: 0.95rem;
     font-weight: normal;
